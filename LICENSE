@@ -1,0 +1,23 @@
+Copyright (c) 2026 Animesh Bhardwaj (PharmaBill). All rights reserved.
+
+PROPRIETARY LICENSE AND TERMS OF USE
+
+This repository contains official compiled binary distributions and release packages of PharmaBill ("Software"). The Software, including all source code, compiled binaries, graphic assets, branding, user interfaces, documentation, and database schemas, is proprietary software protected by copyright, intellectual property, and trade secret laws.
+
+1. GRANT OF LICENSE
+Subject to compliance with these terms, you are granted a non-exclusive, non-transferable, revocable license to download, install, and execute the official binary distributions of PharmaBill solely for internal pharmacy management and billing operations.
+
+2. RESTRICTIONS
+You may NOT:
+(a) Decompile, disassemble, decrypt, reverse engineer, or attempt to derive the source code of the Software or any component thereof.
+(b) Modify, adapt, translate, create derivative works from, or distribute modified versions of the Software.
+(c) Sell, rent, lease, sub-license, redistribute, host, or mirror these binaries on third-party servers or package repositories without explicit prior written authorization from the copyright holder.
+(d) Remove, alter, or obscure any copyright notice, trademark, or proprietary legends contained in or on the Software.
+
+3. INTELLECTUAL PROPERTY
+All rights, title, interest, and intellectual property in and to PharmaBill and related services remain exclusively with Animesh Bhardwaj (PharmaBill). No ownership rights are transferred under this license.
+
+4. DISCLAIMER OF WARRANTIES
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, ACCURACY, AND NON-INFRINGEMENT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+For licensing inquiries, enterprise deployment, or support, please contact the author.

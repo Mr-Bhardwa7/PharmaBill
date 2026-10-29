@@ -1,0 +1,16 @@
+# OS generated files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Temporary files
+*.tmp
+*.log
+
+# Do not commit massive local binary installers directly into git history
+# (They should be published to GitHub Releases)
+*.deb
+*.AppImage
+*.exe
+*.msi
