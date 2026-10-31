@@ -1,56 +1,98 @@
-# Changelog
+# PharmaBill — What's New
 
-All notable user-facing changes to the **PharmaBill** desktop application, platform, and binary distributions are documented in this file.
-
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+Welcome to the **PharmaBill** release notes! This page lists all new features, improvements, and fixes in everyday, easy-to-understand language so you and your pharmacy staff know exactly what's new.
 
 ---
 
-## [1.0.2] - 2026-10-30
+## Version 1.0.2 (October 30, 2026)
 
-### 🚀 Added
-- **Interactive Help & Knowledge Center**: Integrated high-intent pharmacy FAQ knowledge base with clear definitions covering inventory workflows, billing shortcuts, and GST compliance.
-- **Search & Discovery Enhancements**: Implemented rich structured data and enhanced web metadata for improved visibility across search engines and AI assistants.
-- **Modern Asset Delivery**: Optimized application image assets with next-generation WebP delivery for faster page and asset loading.
-- **Accessibility Improvements**: Added keyboard-friendly skip navigation for improved accessibility.
+### 🌟 New Features & Everyday Improvements
 
-### 🔄 Changed
-- **Content Hierarchy Normalization**: Streamlined documentation and landing page structure for improved navigation and reading clarity.
-- **Counter Workflow Highlights**: Refined feature presentations to better showcase keyboard-first billing and batch expiry management.
+* **In-App Update Notification Button**:
+  * Whenever a newer version of PharmaBill is available, an **[Update]** pill button will now appear at the top of your screen so you can update right away.
+  * Your current software version is also clearly displayed at the bottom of the left sidebar menu for easy reference.
 
-### ⚡ Performance & Polish
-- Reduced application bundle size by removing unused legacy graphic assets.
-- General performance optimizations across desktop application views.
+* **Screen Zoom In & Zoom Out Controls**:
+  * You can now easily make the screen text larger or smaller to suit your monitor using the new **+** and **-** zoom buttons in the titlebar, or by pressing **Ctrl and +** / **Ctrl and -** on your keyboard. Press **Ctrl and 0** to reset back to normal (100%).
+  * The top window buttons stay fixed and sharp regardless of your zoom level.
+  * Your preferred zoom setting is automatically remembered the next time you open the app.
 
----
+* **New Interactive Pharmacy FAQ Guide**:
+  * Added a dedicated help and questions section on our website explaining counter shortcuts, batch tracking, and Indian GST billing rules.
 
-## [1.0.1] - 2026-10-29
-
-### 🚀 Added
-- **Offline Counter Billing Resilience**: Enhanced offline mode allowing continuous invoice generation and receipt printing during network interruptions.
-- **Automatic Background Synchronization**: Real-time background sync that reconciles sales records and inventory adjustments when connectivity resumes.
-- **Thermal Receipt Printer Support**: Plug-and-play USB interface for standard 3-inch ESC/POS thermal receipt printers.
-- **Barcode Scanner Compatibility**: Instant product lookup via standard USB barcode scanners.
-
-### 🛠️ Improvements & Fixes
-- Enhanced desktop application launch stability on Windows and Linux systems.
-- Optimized Linux package setup and installation compatibility for modern distributions.
+* **Faster Page & Asset Loading**:
+  * Upgraded application graphics and icons for noticeably faster page opening and lower data usage.
 
 ---
 
-## [1.0.0] - 2026-10-29
+### 🛠️ Fixes & Counter Stability
 
-### 🚀 Added
-- **Initial Production Release**: Official production desktop application release for Windows (`.exe`), Ubuntu/Debian (`.deb`), and Linux (`.AppImage`).
-- **Keyboard-First Billing Engine**: Fast POS counter checkout operating completely via hotkeys and barcode input.
-- **Automated FEFO Batch Tracking**: Automatic First-Expiry-First-Out medicine dispensing to prevent expired stock accumulation.
-- **GST-Ready Invoicing**: Automated CGST, SGST, and IGST tax calculation with itemized HSN codes and receipt printing.
-- **Multi-Branch Operations**: Centralized purchase orders, inter-branch stock transfers, and branch-level ledger tracking.
-- **Staff Access Controls**: Configurable staff roles and counter permissions for administrative and billing staff.
-- **Package Integrity Verification**: Cryptographic SHA256 verification checksums for all official release packages.
+* **Smoother Payment Counter Popup**:
+  * Fixed an issue where the payment dialog popup in the billing counter could freeze or take extra clicks to complete payment during busy checkout hours.
+
+* **Decimal Prices for Purchases & Stock**:
+  * You can now enter prices with paise/decimal points (e.g., ₹14.50) when recording supplier purchases and adding new medicine stocks.
+
+* **Supplier Purchase Order Saving**:
+  * Fixed an issue that previously prevented new supplier purchase orders from saving and submitting properly.
+
+* **Cleaner Activity History (Audit Logs)**:
+  * When reviewing past activity logs, you will now see only the exact items that were changed rather than long, unchanged form lists.
 
 ---
 
-[1.0.2]: https://github.com/Mr-Bhardwa7/PharmaBill/releases/tag/v1.0.2
-[1.0.1]: https://github.com/Mr-Bhardwa7/PharmaBill/releases/tag/v1.0.1
-[1.0.0]: https://github.com/Mr-Bhardwa7/PharmaBill/releases/tag/v1.0.0
+## Version 1.0.1 (October 29, 2026)
+
+### 🌟 New Features & Everyday Improvements
+
+* **Offline Counter Billing Resilience**:
+  * Keep billing customers and issuing receipts without interruption even if your internet connection drops.
+  * All offline bills and stock adjustments automatically sync to the cloud the moment your internet reconnects.
+
+* **Receipt Printer & Barcode Scanner Plug-and-Play**:
+  * Direct plug-and-play support for standard 3-inch thermal receipt printers (no complex printer drivers needed).
+  * Instant medicine lookup by scanning product barcodes with your USB barcode scanner.
+
+---
+
+### 🛠️ Fixes & Stability
+
+* **Navigation Menu Highlighting**:
+  * Fixed menu tabs to clearly highlight the page you are currently viewing.
+
+* **Supplier Cards on Smaller Screens**:
+  * Adjusted supplier cards so text and buttons fit cleanly without cutoffs on smaller counter monitors.
+
+* **Flexible Supplier Details**:
+  * Supplier contact phone and email fields are now optional, letting you quickly save local distributors with minimal typing.
+
+* **Desktop App Startup Stability**:
+  * Improved overall launch speed and window stability on Windows and Linux computers.
+
+---
+
+## Version 1.0.0 (October 29, 2026)
+
+### 🚀 Initial Production Release
+
+* **First Official Release of PharmaBill**:
+  * Official desktop application launch for Windows (10 and 11) and Ubuntu / Debian Linux computers.
+
+* **Keyboard-First Fast Counter Billing**:
+  * Complete customer bills without reaching for a mouse:
+    * Press **`/`** to instantly search medicines.
+    * Press **`C`** to select or add a customer.
+    * Press **`PP`** to open the quick payment dialog.
+    * Press **`Enter`** to auto-select the nearest-expiry batch.
+
+* **Automatic FEFO (First-Expiry-First-Out) Batch Tracking**:
+  * The system automatically selects the batch expiring earliest so you never accidentally sell older stock or incur expired medicine losses.
+
+* **GST-Ready Tax Invoicing**:
+  * Automatic calculation of CGST, SGST, and IGST with required HSN codes and printed tax receipts.
+
+* **Multi-Branch Pharmacy Management**:
+  * Central purchase orders, inter-branch stock transfers, and branch-level ledger tracking from a single dashboard.
+
+* **Staff Permissions & Accounts**:
+  * Separate login accounts with customizable counter permissions for Cashiers, Pharmacists, Managers, and Store Admins.
