@@ -9,7 +9,7 @@
 
 **Official binary distribution repository for PharmaBill — Next-Generation Pharmacy Point of Sale & Inventory Management System.**
 
-[🌐 Official Website & Web Portal](https://pharmabill.in) • [📦 Latest Releases](https://github.com/Mr-Bhardwa7/PharmaBill/releases) • [🐞 Report an Issue](https://github.com/Mr-Bhardwa7/PharmaBill/issues)
+[🌐 Official Website & Web Portal](https://pharmabill.in) • [📦 Latest Releases](https://github.com/Mr-Bhardwa7/PharmaBill/releases) • [📝 Release Changelog](CHANGELOG.md) • [🐞 Report an Issue](https://github.com/Mr-Bhardwa7/PharmaBill/issues)
 
 </div>
 
